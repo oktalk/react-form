@@ -1,0 +1,10 @@
+@import "_variables.css";
+
+.HelloWorld {
+  border: 2px solid var(--color-black);
+  text-align: center;
+  background-color: var(--color-off-white);
+  color: var(--color-subtle-black);
+  margin: 20px;
+  padding: 20px;
+}
