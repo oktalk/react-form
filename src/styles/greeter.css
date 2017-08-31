@@ -1,0 +1,9 @@
+@import "./_variables.css";
+
+.greeter {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid var(--color-subtle-black);
+  background-color: var(--color-off-white);
+  text-align: center;
+}
