@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import './HelloWorld.css';
+import '../styles/form-group.css';
 
-class HelloWorld extends Component {
+class FormGroup extends Component {
   constructor(props) {
     super(props);
     this.state = {greeting: 'Hello'};
@@ -14,7 +14,7 @@ class HelloWorld extends Component {
 
   render() {
     return (
-      <div className="HelloWorld">
+      <div className="form-group">
       {this.state.greeting} {this.props.name}!
       <br />
       <button onClick={this.frenchify.bind(this)}>Frenchify!</button>
@@ -23,4 +23,4 @@ class HelloWorld extends Component {
   }
 };
 
-export default HelloWorld;
+export default FormGroup;
